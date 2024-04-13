@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1000,
+        "name": "Willamette Pass",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": 43.606565,
+            "longitude": -122.019655
+        }
+    },
+    {
+        "id": 1001,
+        "name": "Mt Hood Meadows",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": 45.344484,
+            "longitude": -121.673820
+        }
+    },
+    {
+        "id": 1002,
+        "name": "Mt Ashland",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": 42.086718,
+            "longitude": -122.710547
+        }
+    },
+    {
+        "id": 1003,
+        "name": "Mt Bachelor",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": 43.978275,
+            "longitude": -121.686925
+        }
+    },
+    {
+        "id": 1004,
+        "name": "Hoodoo",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude":  44.401599,
+            "longitude": -121.882278
+        }
+    },
+    {
+        "id": 1005,
+        "name": "Warner Canyon",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude":   42.230170,
+            "longitude": -120.300589
+        }
+    },
+    {
+        "id": 1006,
+        "name": "Anthony Lakes",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude":    44.958451,
+            "longitude": -118.244679
+        }
+    },
+    {
+        "id": 1007,
+        "name": "Mount Bailey",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": 43.154479,
+            "longitude": -122.220317
+        }
+    },
+    {
+        "id": 1008,
+        "name": "Timberline",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude":    45.344605,
+            "longitude": -121.711954
+        }
+    },
+    {
+        "id": 1008,
+        "name": "Mt Hood Skibowl",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude":    45.288112,
+            "longitude": -121.783093
+        }
+    },
+    {
+        "id": 1009,
+        "name": "Cooper Spur",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude":    45.410773,
+            "longitude": -121.606605
+        }
+    },
+    {
+        "id": 1010,
+        "name": "Ferguson Ridge",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude":    45.281772,
+            "longitude": -117.112272
+        }
+    },
+    {
+        "id": 1011,
+        "name": "Spout Springs",
+        "description": "Hello, World!",
+        "isFavorite": false,
+        "coordinates": {
+            "latitude":     45.759649,
+            "longitude": -118.048902
+        }
+    }
+]
+
+ 
+
+
+

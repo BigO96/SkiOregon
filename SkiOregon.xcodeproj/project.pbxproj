@@ -11,6 +11,16 @@
 		E656B8352BCA722400F3E1AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E656B8342BCA722400F3E1AF /* ContentView.swift */; };
 		E656B8372BCA722600F3E1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E656B8362BCA722600F3E1AF /* Assets.xcassets */; };
 		E656B83A2BCA722600F3E1AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E656B8392BCA722600F3E1AF /* Preview Assets.xcassets */; };
+		E656B8452BCA73B100F3E1AF /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E656B8442BCA73B100F3E1AF /* WeatherView.swift */; };
+		E656B8472BCA73B800F3E1AF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E656B8462BCA73B800F3E1AF /* MapView.swift */; };
+		E656B8492BCA73C100F3E1AF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E656B8482BCA73C100F3E1AF /* ProfileView.swift */; };
+		E656B84D2BCA745300F3E1AF /* MapDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E656B84C2BCA745300F3E1AF /* MapDataManager.swift */; };
+		E66A5D172BCA768900BB11EA /* jsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A5D162BCA768900BB11EA /* jsonHelper.swift */; };
+		E66A5D1A2BCA76EC00BB11EA /* MapData.json in Resources */ = {isa = PBXBuildFile; fileRef = E66A5D192BCA76E300BB11EA /* MapData.json */; };
+		E66A5D1D2BCA7D1000BB11EA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A5D1C2BCA7D1000BB11EA /* SearchView.swift */; };
+		E66A5D1F2BCA7DB600BB11EA /* MountainRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A5D1E2BCA7DB600BB11EA /* MountainRowView.swift */; };
+		E66A5D212BCAF79A00BB11EA /* MountainDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A5D202BCAF79A00BB11EA /* MountainDetailView.swift */; };
+		E66A5D232BCAF9DB00BB11EA /* WeatherRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A5D222BCAF9DB00BB11EA /* WeatherRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		E656B8342BCA722400F3E1AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E656B8362BCA722600F3E1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E656B8392BCA722600F3E1AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E656B8442BCA73B100F3E1AF /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		E656B8462BCA73B800F3E1AF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E656B8482BCA73C100F3E1AF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E656B84C2BCA745300F3E1AF /* MapDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataManager.swift; sourceTree = "<group>"; };
+		E66A5D162BCA768900BB11EA /* jsonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonHelper.swift; sourceTree = "<group>"; };
+		E66A5D192BCA76E300BB11EA /* MapData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MapData.json; sourceTree = "<group>"; };
+		E66A5D1C2BCA7D1000BB11EA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		E66A5D1E2BCA7DB600BB11EA /* MountainRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainRowView.swift; sourceTree = "<group>"; };
+		E66A5D202BCAF79A00BB11EA /* MountainDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDetailView.swift; sourceTree = "<group>"; };
+		E66A5D222BCAF9DB00BB11EA /* WeatherRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,8 @@
 			children = (
 				E656B8322BCA722400F3E1AF /* SkiOregonApp.swift */,
 				E656B8342BCA722400F3E1AF /* ContentView.swift */,
+				E656B8532BCA75FC00F3E1AF /* Data */,
+				E656B8402BCA737E00F3E1AF /* Views */,
 				E656B8362BCA722600F3E1AF /* Assets.xcassets */,
 				E656B8382BCA722600F3E1AF /* Preview Content */,
 			);
@@ -65,6 +87,70 @@
 				E656B8392BCA722600F3E1AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E656B8402BCA737E00F3E1AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E656B8412BCA738700F3E1AF /* WeatherViews */,
+				E66A5D1B2BCA7D0100BB11EA /* SearchView */,
+				E656B8422BCA738B00F3E1AF /* MapViews */,
+				E656B8432BCA738F00F3E1AF /* ProfileViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E656B8412BCA738700F3E1AF /* WeatherViews */ = {
+			isa = PBXGroup;
+			children = (
+				E656B8442BCA73B100F3E1AF /* WeatherView.swift */,
+				E66A5D222BCAF9DB00BB11EA /* WeatherRowView.swift */,
+			);
+			path = WeatherViews;
+			sourceTree = "<group>";
+		};
+		E656B8422BCA738B00F3E1AF /* MapViews */ = {
+			isa = PBXGroup;
+			children = (
+				E656B8462BCA73B800F3E1AF /* MapView.swift */,
+			);
+			path = MapViews;
+			sourceTree = "<group>";
+		};
+		E656B8432BCA738F00F3E1AF /* ProfileViews */ = {
+			isa = PBXGroup;
+			children = (
+				E656B8482BCA73C100F3E1AF /* ProfileView.swift */,
+			);
+			path = ProfileViews;
+			sourceTree = "<group>";
+		};
+		E656B8532BCA75FC00F3E1AF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E66A5D192BCA76E300BB11EA /* MapData.json */,
+				E66A5D182BCA76A300BB11EA /* DataManagers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E66A5D182BCA76A300BB11EA /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				E656B84C2BCA745300F3E1AF /* MapDataManager.swift */,
+				E66A5D162BCA768900BB11EA /* jsonHelper.swift */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		E66A5D1B2BCA7D0100BB11EA /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				E66A5D1C2BCA7D1000BB11EA /* SearchView.swift */,
+				E66A5D202BCAF79A00BB11EA /* MountainDetailView.swift */,
+				E66A5D1E2BCA7DB600BB11EA /* MountainRowView.swift */,
+			);
+			path = SearchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66A5D1A2BCA76EC00BB11EA /* MapData.json in Resources */,
 				E656B83A2BCA722600F3E1AF /* Preview Assets.xcassets in Resources */,
 				E656B8372BCA722600F3E1AF /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +224,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66A5D212BCAF79A00BB11EA /* MountainDetailView.swift in Sources */,
+				E656B8452BCA73B100F3E1AF /* WeatherView.swift in Sources */,
+				E656B8472BCA73B800F3E1AF /* MapView.swift in Sources */,
+				E656B8492BCA73C100F3E1AF /* ProfileView.swift in Sources */,
+				E66A5D1F2BCA7DB600BB11EA /* MountainRowView.swift in Sources */,
 				E656B8352BCA722400F3E1AF /* ContentView.swift in Sources */,
+				E66A5D1D2BCA7D1000BB11EA /* SearchView.swift in Sources */,
+				E66A5D172BCA768900BB11EA /* jsonHelper.swift in Sources */,
+				E656B84D2BCA745300F3E1AF /* MapDataManager.swift in Sources */,
 				E656B8332BCA722400F3E1AF /* SkiOregonApp.swift in Sources */,
+				E66A5D232BCAF9DB00BB11EA /* WeatherRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +371,7 @@
 				DEVELOPMENT_TEAM = A8H5RFL64F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +401,7 @@
 				DEVELOPMENT_TEAM = A8H5RFL64F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
